@@ -1,0 +1,131 @@
+<!-- Contenu principal : structure simple et rapide à parcourir -->
+<main class="profile">
+  
+  <section class="hero" aria-labelledby="profile-title">
+    <div class="hero__photo">
+      <!-- Sur CodePen, remplace le chemin par l'URL de ton image dans Assets -->
+      <img
+        src="IMG_1466.jpg"
+        alt="Portrait de Louise Heude"
+        class="portrait"
+      >
+    </div>
+
+    <div class="hero__content">
+      <p class="eyebrow">Étudiante en L2 · ESDHEM</p>
+
+      <h1 id="profile-title">Louise Heude</h1>
+
+      <p class="subtitle">
+        Étudiante en école de commerce, ambitieuse, dynamique et déjà familière
+        avec le monde professionnel.
+      </p>
+
+      <p class="intro">
+        J’ai 19 ans et je suis actuellement en deuxième année à l’ESDHEM.
+        Depuis mes 16 ans, mes différentes expériences professionnelles
+        m’ont permis de développer rapidement mon autonomie, mon sens du
+        service et ma capacité à m’adapter à des environnements exigeants.
+      </p>
+
+      <button id="contactButton" class="contact-button" type="button">
+        Me contacter
+      </button>
+
+      <!-- aria-live permet aux lecteurs d'écran d'annoncer le message -->
+      <p id="contactMessage" class="contact-message" aria-live="polite"></p>
+    </div>
+  </section>
+
+
+  <!-- Quatre compétences clés pour une lecture rapide -->
+  <section class="section" aria-labelledby="skills-title">
+    <div class="section-heading">
+      <p class="section-number">01</p>
+      <h2 id="skills-title">Compétences</h2>
+    </div>
+
+    <div class="skills-grid">
+      <article class="skill-card">
+        <span class="skill-number">01</span>
+        <h3>Ambition & dynamisme</h3>
+        <p>
+          Une forte envie d’apprendre, de progresser et de m’investir
+          pleinement dans les projets qui me sont confiés.
+        </p>
+      </article>
+
+      <article class="skill-card">
+        <span class="skill-number">02</span>
+        <h3>Relation client</h3>
+        <p>
+          Mon expérience en restauration m’a appris le sens du service,
+          l’écoute des clients, la réactivité et la rigueur.
+        </p>
+      </article>
+
+      <article class="skill-card">
+        <span class="skill-number">03</span>
+        <h3>Autonomie & adaptabilité</h3>
+        <p>
+          Mon travail depuis mes 16 ans auprès d’un prestataire alimentaire
+          m’a appris à être autonome et efficace, même dans des conditions exigeantes.
+        </p>
+      </article>
+
+      <article class="skill-card">
+        <span class="skill-number">04</span>
+        <h3>Marketing & esprit d’équipe</h3>
+        <p>
+          Mon stage chez Decathlon m’a permis de travailler sur l’expérience
+          client, la mise en avant des produits et la collaboration en équipe.
+        </p>
+      </article>
+    </div>
+  </section>
+
+
+  <!-- Deux objectifs professionnels clairement identifiés -->
+  <section class="section projects-section" aria-labelledby="projects-title">
+    <div class="section-heading">
+      <p class="section-number">02</p>
+      <h2 id="projects-title">Mes projets</h2>
+    </div>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <p class="project-label">Projet académique</p>
+        <h3>Intégrer SKEMA Business School</h3>
+        <p>
+          Je souhaite poursuivre mes études en intégrant un Master à
+          SKEMA Business School afin d’approfondir mes compétences en
+          commerce et en marketing.
+        </p>
+      </article>
+
+      <article class="project-card">
+        <p class="project-label">Projet entrepreneurial</p>
+        <h3>Créer mon entreprise</h3>
+        <p>
+          À plus long terme, j’aimerais entreprendre dans le marketing
+          pour accompagner la visibilité des entreprises, ou développer
+          une activité dans le secteur de l’événementiel.
+        </p>
+      </article>
+    </div>
+  </section>
+
+</main>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
